@@ -34,6 +34,7 @@ public class IfElseDemo {
 		 System.out.println("Enter your name - ");
 		 String firstName = sc.next();
 		 System.out.println(firstName);
+		 System.out.println("Code End");
 	 }
 	public static void main(String[] args) {
 		IfElseDemo i1 = new IfElseDemo();
