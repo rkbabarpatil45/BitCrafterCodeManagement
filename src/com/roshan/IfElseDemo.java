@@ -12,7 +12,7 @@ public class IfElseDemo {
 		System.out.println("Enter 2nd No  - ");
 		int second = sc.nextInt();
 		//if false it sent to the in the else part
-		if (first<second) {
+		if (first<second || second <0 ) {
 			System.out.println("first value is small");			
 		}else {
 			System.out.println("Second value is small");
